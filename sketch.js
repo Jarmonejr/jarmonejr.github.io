@@ -28,7 +28,7 @@ function draw(){
     background(58, 255,255);
   }
   else{
-    Rainbow()
+    Rainbow("Jarmone")
   }
   console.log(returingvalue);
   textSize(32);
@@ -88,11 +88,12 @@ function Bubble(x, y, diameter) {
   }
 }
 
-function Rainbow(){
+function Rainbow(name){
   for (var i = 0; i < width; i++) {
     stroke(i, width, width);
     line(i, 0, i, height);
   }
+  return(name);
 }
 function Redgreen() {
   for (var i = 0; i < width; i++) {
