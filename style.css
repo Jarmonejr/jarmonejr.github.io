@@ -1,0 +1,14 @@
+body{
+  background-color:blue;
+  padding:10px;
+}
+h1{
+  color: blue;
+  font-size: 200%;
+  text-align: center;
+  text-decoration-color: red;
+  table-layout: auto;
+}
+h2{
+  text-align: center;
+}
